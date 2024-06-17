@@ -1,0 +1,140 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+#home h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#home button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#home button:hover {
+    background-color: #444;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+#blog h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#blog ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#blog li {
+    margin-bottom: 2rem;
+}
+
+#blog h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#blog p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+#blog button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#blog button:hover {
+    background-color: #444;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 2rem;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #ccc;
+}
