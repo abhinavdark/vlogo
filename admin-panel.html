@@ -1,0 +1,44 @@
+<!-- admin-panel.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VegaMedia Admin Panel</title>
+    <link rel="stylesheet" href="admin-styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </nav>
+    <!-- Posts Section -->
+    <section id="posts">
+        <h2>Posts</h2>
+        <ul>
+            <!-- Loop through posts here -->
+            <li>
+                <h3>Post Title</h3>
+                <p>Post Content</p>
+                <button>Edit</button>
+                <button>Delete</button>
+            </li>
+        </ul>
+    </section>
+    <!-- Settings Section -->
+    <section id="settings">
+        <h2>Settings</h2>
+        <form>
+            <label for="title">Blog Title:</label>
+            <input type="text" id="title" name="title">
+            <label for="description">Blog Description:</label>
+            <textarea id="description" name="description"></textarea>
+            <button>Save Changes</button>
+        </form>
+    </section>
+    <script src="admin-script.js"></script>
+</body>
+</html>
